@@ -1,0 +1,43 @@
+a {
+	text-align: right;
+	color:black;
+
+}
+a[href$=".css"] {
+	color:yellow;
+}
+a[href$=".xml"] {
+	color:red;
+}
+a[href$=".jpg"] {
+	color:green;
+}
+#fileList {
+
+	font-size: 200%;
+}
+img[src$="1.jpg"] {
+	height: 200px;
+	width: 200px;
+}
+img[src$="2.jpg"] {
+	height: 200px;
+	width: 200px;
+}
+ul :first-child{
+	text-align: center;
+	color:brown;
+}	
+ul :last-child{
+	text-align: rightr
+	color:black;
+}
+tr:nth-child(2n+2){
+	background-color:blue;
+}
+table {
+		border: 3mm ridge rgba(170, 50, 220, .6);
+	 	margin-left: auto;
+  	 	margin-right: auto;
+		width: 50%;
+}
