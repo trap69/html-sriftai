@@ -1,4 +1,21 @@
 /*Teksto formatavimas ir kita*/
+.container {
+	background:  url(../img/mountains2.jpeg) rgb(204, 139, 179);
+	background-size: cover;
+	background-attachment: fixed; /* no-repeat; */
+}
+article {
+	background-color: rgba(204, 184, 196, 0.5);
+}
+article:hover {
+	background-color: rgb(247, 230, 240);
+	}
+main {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+}
 section article p{
 	font-family: 'Lora', serif;
 	color:red;
@@ -26,4 +43,40 @@ a {
 }
 footer {
 	text-align: center;
+}
+article i {
+	color:red;
+}
+article i[class$="extinguisher"] {
+	color: black;
+}
+article i[class$="snowflake"] {
+	color: 	rgb(0, 128, 255);
+}
+article i[class$="bite"] {img/
+	color: 	rgb(100, 128, 255);
+}
+article i[class$="bite"] {
+	color: 	rgb(200, 128, 255);
+}
+body {
+	background-image: url(img/mountains.jpg);
+	background-color: #cccccc;
+
+}
+article {
+	width: 100%;
+  	height: 100%;
+  	border: 1px rgba(0,100,0,1.0);
+  	size: portrait;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	font-size: 2.7em;
+	text-align: center;
+	padding: 8px;
+	border: 2em solid #000;
 }
